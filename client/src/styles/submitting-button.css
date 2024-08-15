@@ -1,0 +1,11 @@
+.submitting-button__default {
+    @apply w-full p-4 h-14 text-white rounded-md transition flex justify-center items-center;
+}
+
+.submitting-button__enabled {
+    @apply active:scale-105 bg-blue-600 hover:bg-blue-600 text-white;
+}
+
+.submitting-button__disabled {
+    @apply bg-neutral-500 text-neutral-200;
+}
